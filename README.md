@@ -4,15 +4,13 @@ This project enables real-time control of a robotic hand using computer vision. 
 
 ## 🛠️ Hardware Requirements
 
-* **Arduino Board** (Uno, Nano, Mega, etc.)
+* **Arduino Board** (Uno)
 * **5x Servo Motors** (one for each finger)
 * **Webcam**
-* **Power Supply** (Recommended: External 5V supply for servos)
+* **Power Supply** (External 5V supply for servos)
 * Jumper wires & Breadboard
 
 ## 🔌 Wiring Configuration
-
-Connect the signal wire of each servo to the following Digital Pins on your Arduino:
 
 | Finger | Arduino Pin |
 | :--- | :--- |
@@ -21,8 +19,6 @@ Connect the signal wire of each servo to the following Digital Pins on your Ardu
 | **Middle** | Pin 11 |
 | **Ring** | Pin 10 |
 | **Pinky** | Pin 9 |
-
-> **Note:** Ensure all servos share a common ground (GND) with the Arduino.
 
 ### Circuit Diagram
 Here is a wiring example showing two servos connected to an external power supply and an Arduino Uno. This setup should be replicated for all five servos.
